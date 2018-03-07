@@ -21,6 +21,6 @@ ADD docker/docker-entrypoint.sh /docker-entrypoint.sh
 
 WORKDIR	/
 
-EXPOSE 53/udp 53/tcp
+EXPOSE 53
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
